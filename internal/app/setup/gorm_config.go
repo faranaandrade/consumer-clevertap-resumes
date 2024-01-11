@@ -1,8 +1,8 @@
 package setup
 
 import (
-	"github.com/occmundial/consumer-clevertap-applies/config"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/gorm"
+	"github.com/occmundial/consumer-clevertap-resumes/config"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/gorm"
 )
 
 func NewGormSetup(configuration *config.Configuration) *gorm.Setup {

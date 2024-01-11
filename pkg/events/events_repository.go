@@ -8,7 +8,7 @@ import (
 
 	"github.com/occmundial/go-common/http/body"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/location"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/location"
 	httpclient "github.com/occmundial/go-common/http/client"
 
 	"net/http"

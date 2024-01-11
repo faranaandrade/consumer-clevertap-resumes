@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/envconfig"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/envconfig"
 	"github.com/occmundial/go-common/logger"
 
 	"context"

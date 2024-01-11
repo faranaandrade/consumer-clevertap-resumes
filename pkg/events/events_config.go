@@ -1,6 +1,6 @@
 package events
 
-import "github.com/occmundial/consumer-clevertap-applies/config"
+import "github.com/occmundial/consumer-clevertap-resumes/config"
 
 type Setup struct {
 	APIEvents  string

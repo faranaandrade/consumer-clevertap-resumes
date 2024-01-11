@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/occmundial/consumer-clevertap-applies/cmd/di"
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/consumer"
+	"github.com/occmundial/consumer-clevertap-resumes/cmd/di"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/consumer"
 	"github.com/occmundial/go-common/logger"
 )
 

@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/kafka"
-	l "github.com/occmundial/consumer-clevertap-applies/pkg/location"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/kafka"
+	l "github.com/occmundial/consumer-clevertap-resumes/pkg/location"
 
 	"github.com/stretchr/testify/assert"
 )
 
-const MessageToSendTypeString = "MessageToSend[github.com/occmundial/consumer-clevertap-applies/pkg/processor.MockType]"
+const MessageToSendTypeString = "MessageToSend[github.com/occmundial/consumer-clevertap-resumes/pkg/processor.MockType]"
 
 var (
 	location2        = l.GetLocation(logger.GetLogger()).Location

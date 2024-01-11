@@ -1,7 +1,7 @@
 package consumer
 
 import (
-	"github.com/occmundial/consumer-clevertap-applies/pkg/processor"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/processor"
 	"github.com/stretchr/testify/mock"
 )
 

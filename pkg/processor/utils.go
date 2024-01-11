@@ -3,7 +3,7 @@ package processor
 import (
 	"time"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/kafka"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/kafka"
 )
 
 // secondsToTimeDuration : convierte de segundos a time.Duration

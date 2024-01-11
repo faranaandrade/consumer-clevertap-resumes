@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
 )
 
 func TestGetMessageFromBytes(t *testing.T) {

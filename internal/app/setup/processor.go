@@ -1,12 +1,12 @@
 package setup
 
 import (
-	"github.com/occmundial/consumer-clevertap-applies/pkg/consumer"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/consumer"
 	"github.com/occmundial/go-common/logger"
 
-	"github.com/occmundial/consumer-clevertap-applies/config"
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/processor"
+	"github.com/occmundial/consumer-clevertap-resumes/config"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/processor"
 )
 
 // NewProcessor : Factory que crea un "Consumer"

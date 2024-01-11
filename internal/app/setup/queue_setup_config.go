@@ -1,8 +1,8 @@
 package setup
 
 import (
-	"github.com/occmundial/consumer-clevertap-applies/config"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/kafka"
+	"github.com/occmundial/consumer-clevertap-resumes/config"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/kafka"
 )
 
 func NewQueueSetup(configuration *config.Configuration) *kafka.QueueSetup {

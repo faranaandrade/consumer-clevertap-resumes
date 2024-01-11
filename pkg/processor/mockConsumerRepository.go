@@ -3,7 +3,7 @@ package processor
 import (
 	"context"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/kafka"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/kafka"
 	"github.com/stretchr/testify/mock"
 )
 

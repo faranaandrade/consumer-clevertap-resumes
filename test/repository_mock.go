@@ -3,7 +3,7 @@ package test
 import (
 	"context"
 
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
 	"github.com/stretchr/testify/mock"
 )
 

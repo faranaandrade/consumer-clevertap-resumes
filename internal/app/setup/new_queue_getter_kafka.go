@@ -1,10 +1,10 @@
 package setup
 
 import (
-	"github.com/occmundial/consumer-clevertap-applies/internal/app/updater"
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/kafka"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/location"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/app/updater"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/kafka"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/location"
 )
 
 func GetQueueGetterKafka(configuration *kafka.QueueSetup, locater *location.Location,

@@ -6,8 +6,8 @@ import (
 
 	"github.com/occmundial/go-common/logger"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/kafka"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/processor"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/kafka"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/processor"
 )
 
 func TestIsTargetHealth_when_is_good_return_true(t *testing.T) {

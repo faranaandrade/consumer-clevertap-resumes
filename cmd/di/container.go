@@ -1,18 +1,18 @@
 package di
 
 import (
-	"github.com/occmundial/consumer-clevertap-applies/internal/app/updater"
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/gorm"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/app/updater"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/gorm"
 
 	"sync"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/events"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/location"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/events"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/location"
 	"github.com/occmundial/go-common/logger"
 
-	"github.com/occmundial/consumer-clevertap-applies/config"
-	"github.com/occmundial/consumer-clevertap-applies/internal/app/setup"
+	"github.com/occmundial/consumer-clevertap-resumes/config"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/app/setup"
 	"go.uber.org/dig"
 )
 

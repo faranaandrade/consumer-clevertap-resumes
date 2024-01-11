@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/jarcoal/httpmock"
-	"github.com/occmundial/consumer-clevertap-applies/config"
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/config"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
 )
 
 const (

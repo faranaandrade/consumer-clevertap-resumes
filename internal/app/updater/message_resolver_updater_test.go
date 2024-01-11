@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
-	"github.com/occmundial/consumer-clevertap-applies/test"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/test"
 	"github.com/occmundial/go-common/logger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

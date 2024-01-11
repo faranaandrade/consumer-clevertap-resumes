@@ -7,7 +7,7 @@ import (
 
 	"github.com/occmundial/go-common/logger"
 
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
 )
 
 const typeUse = "event"

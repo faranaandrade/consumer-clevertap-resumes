@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/processor"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/processor"
 
 	"time"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/kafka"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/kafka"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 

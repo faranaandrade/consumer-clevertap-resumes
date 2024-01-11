@@ -3,7 +3,7 @@ package updater
 import (
 	"encoding/json"
 
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
 )
 
 func NewMessageDeserializer() *MessageDeserializerMessageToProcess {

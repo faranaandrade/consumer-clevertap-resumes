@@ -1,2 +1,2 @@
 go build
-consumer-clevertap-applies
+consumer-clevertap-resumes

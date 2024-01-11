@@ -1,8 +1,8 @@
 package setup
 
 import (
-	"github.com/occmundial/consumer-clevertap-applies/config"
-	"github.com/occmundial/consumer-clevertap-applies/pkg/events"
+	"github.com/occmundial/consumer-clevertap-resumes/config"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/events"
 )
 
 func NewEventsSetup(configuration *config.Configuration) *events.Setup {

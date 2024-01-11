@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/occmundial/consumer-clevertap-applies/pkg/location"
+	"github.com/occmundial/consumer-clevertap-resumes/pkg/location"
 	"github.com/segmentio/kafka-go"
 )
 

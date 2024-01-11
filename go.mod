@@ -1,4 +1,4 @@
-module github.com/occmundial/consumer-clevertap-applies
+module github.com/occmundial/consumer-clevertap-resumes
 
 go 1.21
 

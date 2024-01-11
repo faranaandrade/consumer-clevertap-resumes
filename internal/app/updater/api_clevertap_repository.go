@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/occmundial/consumer-clevertap-applies/config"
-	"github.com/occmundial/consumer-clevertap-applies/internal/models"
+	"github.com/occmundial/consumer-clevertap-resumes/config"
+	"github.com/occmundial/consumer-clevertap-resumes/internal/models"
 	httpbody "github.com/occmundial/go-common/http/body"
 	httpclient "github.com/occmundial/go-common/http/client"
 )

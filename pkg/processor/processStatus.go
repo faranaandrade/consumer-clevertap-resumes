@@ -1,6 +1,6 @@
 package processor
 
-import "github.com/occmundial/consumer-clevertap-applies/pkg/kafka"
+import "github.com/occmundial/consumer-clevertap-resumes/pkg/kafka"
 
 // ProcessStatus :
 type ProcessStatus[T any] struct {
