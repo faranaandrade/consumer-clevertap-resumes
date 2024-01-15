@@ -16,7 +16,10 @@ type ClevertapData struct {
 
 // EvtData :
 type EvtData struct {
-	ResumeID int    `json:"resumeID,omitempty"`
-	JobID    int    `json:"jobID,omitempty"`
-	Email    string `json:"email,omitempty"`
+	ResumeID          int    `json:"resumeID,omitempty"`
+	Email             string `json:"email"`
+	CvReady           bool   `json:"cv_ready,omitempty"`
+	CvAttached        bool   `json:"cv_attached,omitempty"`
+	EducationLevel    string `json:"education_level,omitempty"`
+	YearsOfExperience int    `json:"years_of_experience,omitempty"`
 }
