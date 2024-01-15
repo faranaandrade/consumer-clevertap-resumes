@@ -39,5 +39,8 @@ func (repository *DataUserRepositoryDatabase) GetDBInfo(ctx context.Context, use
 		repository.log.Error("updater", "GetEmail", err)
 		return "", err
 	}
+	if logins == "" {
+		return "", errors.New("empty email")
+	}
 	return logins, nil
 }
