@@ -96,12 +96,8 @@ func TestProcessFailCheckHealth(t *testing.T) {
 
 func TestMapEmailStatisticForCreation(t *testing.T) {
 	resolver := NewMessageResolverUpdater(&APIClevetapRepository{}, &DataUserRepositoryDatabase{}, logger.GetLogger())
-	msg := models.MessageToProcess{
-		ResumeID: 123,
-		UserID:   "test1",
-	}
-	result := resolver.mapEmailStatisticForCreation(&msg, "test@gmail.com")
+	result := resolver.mapEmailStatisticForCreation(12, 12, "test@gmail.com")
 	assert.True(t, len(result.Body) > 0)
 	assert.Equal(t, "test@gmail.com", result.Body[0].EvtData.Email)
-	assert.Equal(t, msg.ResumeID, result.Body[0].EvtData.ResumeID)
+	assert.Equal(t, 12, result.Body[0].EvtData.JobID)
 }

@@ -42,7 +42,7 @@ func (resolver *MessageResolverUpdater) Process(ctx context.Context, inputMsg *m
 		resolver.log.Error("updater", "Process", err)
 		return err
 	}
-	outputMsg := resolver.mapEmailStatisticForCreation(inputMsg, email)
+	outputMsg := resolver.mapEmailStatisticForCreation(inputMsg.ResumeID, inputMsg.JobID, email)
 	err = resolver.ClevetapRepository.SendRequest(outputMsg)
 	if err != nil {
 		resolver.log.Error("updater", "Process", err)
@@ -51,14 +51,11 @@ func (resolver *MessageResolverUpdater) Process(ctx context.Context, inputMsg *m
 	return nil
 }
 
-func (resolver *MessageResolverUpdater) mapEmailStatisticForCreation(inputMsg *models.MessageToProcess, email string) *models.ClevetapBody {
+func (resolver *MessageResolverUpdater) mapEmailStatisticForCreation(resumeID, jobID int, email string) *models.ClevetapBody {
 	evtData := models.EvtData{
-		ResumeID:          inputMsg.ResumeID,
-		Email:             email,
-		CvReady:           inputMsg.CvReady,
-		CvAttached:        inputMsg.CvAttached,
-		EducationLevel:    inputMsg.EducationLevel,
-		YearsOfExperience: inputMsg.YearsOfExperience,
+		ResumeID: resumeID,
+		Email:    email,
+		JobID:    jobID,
 	}
 
 	data := models.ClevertapData{
